@@ -27,13 +27,11 @@
 5. 100 hilos.
 ![100-Hilos](img/visualvm100.png)
 
-    Con lo anterior, y con los tiempos de ejecución dados, se hace una gráfica de tiempo de solución vs. número de hilos.
+Con lo anterior, y con los tiempos de ejecución dados, se hace una gráfica de tiempo de solución vs. número de hilos.
    
 ![grafica_T_H](https://github.com/user-attachments/assets/67a9d43b-2a1a-480e-9866-e53f0874ffa2)
 
-
-
-    En la gráfica se observa que entre mayor es el número de hilos, menor es el tiempo de ejecución. Pero llega a un punto donde tener más hilos no marca considerablemente la diferencia en tiempo de ejecución.
+En la gráfica se observa que entre mayor es el número de hilos, menor es el tiempo de ejecución. Pero llega a un punto donde tener más hilos no marca considerablemente la diferencia en tiempo de ejecución.
 
 ### **Parte IV - Ejercicio Black List Search**
 
@@ -41,7 +39,7 @@
 
 	![ley de Amdahls](img/ahmdahls.png), 
   
-    Donde _S(n)_ es el mejoramiento teórico del desempeño, _P_ la fracción paralelizable del algoritmo, y _n_ el número de hilos, a mayor _n_, mayor debería ser dicha mejora. 
+Donde _S(n)_ es el mejoramiento teórico del desempeño, _P_ la fracción paralelizable del algoritmo, y _n_ el número de hilos, a mayor _n_, mayor debería ser dicha mejora. 
     
     ¿Por qué el mejor desempeño no se logra con los 500 hilos? ¿Cómo se compara este desempeño cuando se usan 200?
 
