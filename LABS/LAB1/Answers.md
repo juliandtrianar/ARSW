@@ -28,8 +28,8 @@
 ![100-Hilos](img/visualvm100.png)
 
     Con lo anterior, y con los tiempos de ejecución dados, se hace una gráfica de tiempo de solución vs. número de hilos.
-
-    ![Gráfica](img\grafica_T_H.png)
+   
+![grafica_T_H](https://github.com/user-attachments/assets/67a9d43b-2a1a-480e-9866-e53f0874ffa2)
 
 
 
