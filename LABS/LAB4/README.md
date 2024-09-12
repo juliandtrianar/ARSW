@@ -2,7 +2,7 @@
 
 ## Arquitecturas de Software
 
-#### Presentado por: Julián David Triana Roa
+#### Presentado por: Julián David Triana Roa.
 
 # Componentes y conectores - Parte I.
 
