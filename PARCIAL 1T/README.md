@@ -2,7 +2,7 @@
 ### Escuela Colombiana de Ingeniería
 ### Arquitecturas de Software - ARSW
 ## Ejercicio Fórmula BBP - Parcial Practico
-
+## Presentado por: Julian David Triana Roa
 
 **Ejercicio Fórmula BBP**
 
