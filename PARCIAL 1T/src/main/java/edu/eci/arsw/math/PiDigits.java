@@ -111,3 +111,29 @@ public class PiDigits {
     }
 
 }
+
+private static void createThreads(int start, int count, int N, Object lockObject){
+    int digitsPerThread = count / N;
+    for (int i =0;i<N; i++){
+    int startDigit = * DIGITPERSUM;
+    int startInterval = i * digitsPerThread;
+    int endInterval = (i== N-1) ? count :start+digitsPerThread;
+    PiDigitsThread  ThreadI= new PiDigitsThread (startInterval,endInterval,i, lockObject);
+    threads.add(ThreadI);
+    ThreadI.start();
+    }
+
+}
+
+ 
+
+public static byte [] linkedListTobyArray(int count,LinkedList<Byte> digits) {
+    byte[] bytes = new byte[count];
+    int i=0;
+    for (Byte b : digits) {
+            bytes [i++]= b;
+    }
+    return bytes;
+}
+
+}
